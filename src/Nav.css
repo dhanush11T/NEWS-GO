@@ -1,0 +1,8 @@
+@import url('https://use.typekit.net/xxxxxx.css'); /* Replace xxxxxx with your Adobe Fonts kit ID */
+
+.navbar-newsgo {
+  font-family: 'Caponi', serif;
+  font-size: 24px; /* Adjust size as needed */
+  color: white; /* Adjust color as needed */
+   /* Adjust margin as needed */
+}

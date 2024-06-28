@@ -1,0 +1,145 @@
+.custom-font {
+    font-family: "KoHo", sans-serif; /* Use Titan One font */
+    font-size: 2rem; /* Adjust as needed */
+    text-transform: uppercase; /* Example: converts text to uppercase */
+}.text-centre{
+    font-family: 'Georgia';
+}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+.nav-item dropdown{
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+.btn:link,
+.btn:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+#new1{
+    font-family: "KoHo", sans-serif;
+    font-size: 20px;
+}
+.card-title{
+    font-family: "DM Mono", monospace;
+}
+.card-text{
+    font-family: 'georgia';
+}
+.btn:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+.btn:active {
+ transform: translateY(-3px);
+}
+
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+.news-card {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a cool effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.news-card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly on hover */
+}
+
+.card-img-top {
+    border-top-left-radius: 15px; /* Ensures top corners of image are rounded */
+    border-top-right-radius: 15px;
+}
+
+.badge-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1; /* Ensures badge is on top of the card content */
+}
+.news-item-wrapper {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
+
+.news-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add box shadow for depth */
+}
+
+.badge-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10; /* Ensure badge is above other content */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.text-muted {
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+.btn {
+    background-color: rgba(41, 38, 38, 0.9);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 212, 255, 1);
+}
