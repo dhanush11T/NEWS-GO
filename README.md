@@ -8,6 +8,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 NewsWeb is a web application built with React that fetches and displays news articles using the News API. The app provides users with up-to-date news from various sources, categorized and displayed in an organized layout. It is styled using HTML, custom CSS, and Bootstrap CSS for responsive design and enhanced user experience.
 
 
+###CATEGORIES:
+IT CONSISTS OF HEALTH,TECHNOLOGY,SCIENCE,GENERAL,POLITICAL,SPORTS,BUSINESS,ENTERTAINMENT
+
+
+###READMORE:
+IT REDIRECTS TO THE CORRESPONING WEB PAGE TO PROVIDE MORE DETAILED INFORMATION
+
 #### Technologies Used:
 - **JavaScript**:Used for Designing and Fetching the news and implementation of hooks and routings
 - **React**: Frontend framework for building user interfaces.
