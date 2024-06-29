@@ -35,13 +35,14 @@ To run the app locally:
 
 #### Troubleshooting:
 There might be errors while running the project on the server due to version issues. To solve them, use any one of the steps below:
-####  EACH COMMAND IS BETWEEN (**)
-1.Run in Terminal - ./node_modules/.bin/react-scripts start .  
-2.Run in Terminal - **npm install react-scripts  **  npm cache clean --force **  rm -rf node_modules ** npm install.
-                       
-                         
-3.Run in Terminal - npm bin ** npm bin react-scripts **   export PATH=./node_modules/.bin:$PATH.
-                     
-                   
+
+- Clone the repository: `git clone <repository-url> && cd <repository-directory>`
+- Install dependencies: `npm install`
+- Install react-scripts: `npm install react-scripts --save`
+- Install additional dependencies: `npm install react-router-dom@latest @testing-library/react@latest`
+- Install react-top-loading-bar: `npm install react-top-loading-bar`
+- Fix vulnerabilities (if any): `npm audit fix --force`
+- Clear npm cache: `npm cache clean --force`
+- Start the development server: `npm start` 
 
                                 
